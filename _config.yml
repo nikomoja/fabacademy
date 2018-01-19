@@ -1,0 +1,4 @@
+baseurl: /fabacademy
+exclude: ['README.md']
+kramdown:
+  input: GFM
