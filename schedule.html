@@ -1,5 +1,14 @@
 ---
-layout: default
+layout: page
+title: Weeks
 ---
 
-<h1>Schedule</h1>
+<ol>
+  {% for page in site.pages %}
+      {% if page.category == 'schedule' %}
+  <li>
+      <a href="{{ site.baseurl }}{{ page.url }}">{{page.title}}</a>
+  </li>
+    {% endif %}
+  {% endfor %}
+</ol>

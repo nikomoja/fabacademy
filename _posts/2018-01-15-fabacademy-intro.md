@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: blog
 title: Journey to the centre of the mind
 meta: You think water moves fast? You should see ice.
-category: Travel
-author: Nico
+category: blog
+author: niko11
 ---
 
 You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out.

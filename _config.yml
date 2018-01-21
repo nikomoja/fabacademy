@@ -2,3 +2,5 @@ baseurl: /fabacademy
 exclude: ['README.md']
 kramdown:
   input: GFM
+
+include: ['_pages']

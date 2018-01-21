@@ -31,8 +31,27 @@ h1 {
 }
 
 
-
 .nav-top {
   font-size: 1.25rem;
   color: red;
+}
+
+/**
+
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
 }

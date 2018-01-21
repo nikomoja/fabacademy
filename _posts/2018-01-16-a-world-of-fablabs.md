@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: blog
 title: Reclaiming the means of production
 meta: What happens when citizens reclaim the power to to produce?
-category: Digital Fabrication
-Author: Nico
+category: blog
+Author: niko11
 ---
 
 ###Ayumba!
