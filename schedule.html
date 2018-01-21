@@ -1,8 +1,17 @@
 ---
-layout: page
+layout: default
 title: Weeks
 ---
 
+<ol>
+  {% for page in site.categories.sched %}
+  <li>
+    <a href="{{ site.baseurl }}{{ page.url }}">{{page.title}}</a>
+  </li>
+  {% endfor %}
+</ol>
+
+<!-- for looping site pages by category
 <ol>
   {% for page in site.pages %}
       {% if page.category == 'schedule' %}
@@ -12,3 +21,5 @@ title: Weeks
     {% endif %}
   {% endfor %}
 </ol>
+
+-->

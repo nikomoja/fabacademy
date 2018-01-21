@@ -1,15 +1,12 @@
-<!-- Page Navigation for next and previous buttons on site pages inverted because posts are read backwards by jekyll -->
-
-
-<div class="pagenav">
+<div class="blognav">
   <button>
-    {% if page.type == 'assign' %}
+    {% if page.type == 'blog' %}
       <a class="prev" href="{{page.next.url}}">&laquo;{{page.next.title}}</a>
     {% endif %}
   </button>
 
   <button>
-    {% if page.type == 'assign' %}
+      {% if page.type == 'blog' %}
       <a class="next" href="{{page.previous.url}}">{{page.previous.title}} &raquo;</a>
     {% endif %}
   </button>

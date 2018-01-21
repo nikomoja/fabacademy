@@ -4,7 +4,7 @@ layout: default
 
 <ul>
   {% for blog in site.posts %}
-      {% if blog.category == 'blog' %}
+      {% if blog.type == 'blog' %}
   <li>
     <a href="{{ site.baseurl }}{{ blog.url }}">{{blog.title}}</a>
     <p>{{blog.meta}}</p>

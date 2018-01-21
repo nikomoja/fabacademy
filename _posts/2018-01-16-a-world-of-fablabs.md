@@ -1,9 +1,8 @@
 ---
-layout: blog
 title: Reclaiming the means of production
 meta: What happens when citizens reclaim the power to to produce?
-category: blog
-Author: niko11
+type: blog
+category: 
 ---
 
 ###Ayumba!

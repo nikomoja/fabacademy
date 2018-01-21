@@ -5,12 +5,10 @@ layout: default
 <h1>Welcome to my Fab Academy web</h1>
 <p>not all those who wonder are lost</p>
 
-
-<ul>
-  {% for blog in site.categories.blog limit:2 %}
+<ol>
+  {% for page in site.categories.sched %}
   <li>
-    <a href="{{ site.baseurl }}{{ blog.url }}">{{blog.title}}</a>
-    <p>{{blog.meta}}</p>
+    <a href="{{ site.baseurl }}{{ page.url }}">{{page.title}}</a>
   </li>
   {% endfor %}
-</ul>
+</ol>

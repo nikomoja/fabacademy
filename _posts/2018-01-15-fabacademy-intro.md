@@ -1,9 +1,8 @@
 ---
-layout: blog
-title: Journey to the centre of the mind
-meta: You think water moves fast? You should see ice.
-category: blog
-author: niko11
+title: Intro to the Fab Academy
+meta: How to Make (Almost) Anything
+type: blog
+category:
 ---
 
 You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out.
