@@ -1,0 +1,57 @@
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size:
+  font: normal: 100%;
+  font-family: Arial;
+}
+
+h1 {
+  border: solid black;
+}
+
+ .current {
+  background-color: #000531;
+  color: #fff;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  text-decoration-line: none;
+}
+
+
+.nav-top {
+  font-size: 1.25rem;
+  color: red;
+}
+
+/**
+
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}

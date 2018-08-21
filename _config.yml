@@ -1,4 +1,4 @@
-baseurl: /fabacademy
+baseurl: /portfolio
 exclude: ['README.md']
 kramdown:
   input: GFM
@@ -20,4 +20,4 @@ defaults:
       type: "posts"
     values:
       layout: "blog"
-      author: "nikomoja"
+      author: "niko11"
